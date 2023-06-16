@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textViewTodo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/shirkand"
+        android:textColor="#725CA3"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/shirkand"
+        android:text="Delete"
+        android:background="@drawable/savebtn"/>
+
+</LinearLayout>
